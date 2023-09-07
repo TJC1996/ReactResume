@@ -12,23 +12,22 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta content={description} name="description" />
 
-        <link key="canonical" rel="canonical" href={`https://reactresume.com${pathname}`} />
+        <link href={`https://reactresume.com${pathname}`} key="canonical" rel="canonical" />
 
-        <link rel="icon" sizes="any" href="/favicon.png" />
-        <link type="image/svg+xml" rel="icon" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link href="/favicon.png" rel="icon" sizes="any" />
+        <link href="/favicon.png" rel="icon" type="image/svg+xml" />
+        <link href="/apple-touch-icon.png" rel="apple-touch-icon" />
+        <link href="/site.webmanifest" rel="manifest" />
 
-        <meta property="og:description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content={`https://reactresume.com${pathname}`} />
+        <meta content={description} property="og:description" />
+        <meta content={title} property="og:title" />
+        <meta content={`https://reactresume.com${pathname}`} property="og:url" />
 
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:title" content={title} />
+        <meta content={description} name="twitter:description" />
+        <meta content={title} name="twitter:title" />
         <script
-          type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "http://anthonyclark1996.com",
@@ -37,6 +36,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
               "jobTitle": "Software Engineer",
             }),
           }}
+          type="application/ld+json"
         />
       </Head>
       {children}
