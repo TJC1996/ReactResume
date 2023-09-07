@@ -36,9 +36,10 @@ emailjs.init('o9FZ4o6_bTNsmBLBD');
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Anthony Clark React Resume',
-  description: "Anthony Clark react resume website.",
+  title: 'Anthony Clark - Full-Stack Developer | React Resume',
+  description: "Anthony Clark's interactive React-based resume showcasing skills, experience, and projects as a full-stack developer.",
 };
+
 
 /**
  * Section definition
