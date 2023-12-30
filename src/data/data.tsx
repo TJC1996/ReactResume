@@ -193,12 +193,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://yelpcamprender.onrender.com/',
     image: porfolioImage2,
   },
-  // {
-  //   title: 'Project title 3',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage3,
-  // },
+  {
+    title: 'Digital Business Card',
+    description: 'A digital business card',
+    url: 'https://digital-business-card-dun.vercel.app/',
+    image: porfolioImage3,
+  },
   // {
   //   title: 'Project title 4',
   //   description: 'Give a short description of your project here.',
@@ -271,7 +271,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'April 2023 - Present',
     location: 'Crochet Nation',
-    title: 'Senior UX Engineer',
+    title: 'Software Engineer',
     content: (
       <ul>
       <li>- Developed a responsive ecommerce store for Crochet Nation using Commerce.js, Stripe, and React.</li>
