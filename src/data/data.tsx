@@ -103,7 +103,7 @@ export const aboutData: About = {
     {label: 'Age', text: '27', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Italian / Irish / Polish', Icon: FlagIcon},
     {label: 'Interests', text: 'Skateboarding, Snowboarding, Hiking', Icon: SparklesIcon},
-    {label: 'Study', text: 'San Diego State University', Icon: AcademicCapIcon},
+    {label: 'Study', text: 'San Diego State University - Management Information Systems', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Labcorp, Fortrea', Icon: BuildingOffice2Icon},
   ],
 };
