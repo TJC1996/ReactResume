@@ -16,6 +16,7 @@ import heroImage from '../images/forest.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import porfolioImage3 from '../images/portfolio/portfolio-3.png';
+import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/sandy.png';
 import {
@@ -190,7 +191,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Yelp Camp',
-    description: 'A location based Campground Review App.',
+    description: 'A location-based Campground Review App.',
     url: 'https://yelpcamprender.onrender.com/',
     image: porfolioImage2,
   },
@@ -200,12 +201,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://digital-business-card-dun.vercel.app/',
     image: porfolioImage3,
   },
-  // {
-  //   title: 'Project title 4',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage4,
-  // },
+  {
+    title: 'Travel Journal',
+    description: 'A brief overview of my travels',
+    url: 'https://mytravel-journal.vercel.app/',
+    image: porfolioImage4,
+  },
   // {
   //   title: 'Project title 5',
   //   description: 'Give a short description of your project here.',
