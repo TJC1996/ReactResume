@@ -205,7 +205,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Travel Journal',
     description: 'A brief overview of my travels',
     url: 'https://mytravel-journal.vercel.app/',
-    image: porfolioImage4,
+    image: portfolioImage4,
   },
   // {
   //   title: 'Project title 5',
