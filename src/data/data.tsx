@@ -17,7 +17,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import porfolioImage3 from '../images/portfolio/portfolio-3.png';
 import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import portfolioImage5 from '../images/portfolio/Portfolio-5.png';
+import portfolioImage5 from '../images/portfolio/portfolio-5.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/sandy.png';
 import {
