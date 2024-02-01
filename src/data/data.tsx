@@ -18,6 +18,7 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import porfolioImage3 from '../images/portfolio/portfolio-3.png';
 import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage5 from '../images/portfolio/portfolio-5.png';
+import portfolioImage6 from '../images/portfolio/portfolio-6png.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/sandy.png';
 import {
@@ -214,12 +215,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://memerator.vercel.app/',
     image: portfolioImage5,
   },
-  // {
-  //   title: 'Project title 6',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage6,
-  // },
+  {
+    title: 'Notes App',
+    description: 'Notes App for Web',
+    url: 'https://notes-app-port.vercel.app/',
+    image: porfolioImage6,
+  },
   // {
   //   title: 'Project title 7',
   //   description: 'Give a short description of your project here.',
