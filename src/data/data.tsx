@@ -219,7 +219,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Notes App',
     description: 'Notes App for Web',
     url: 'https://notes-app-port.vercel.app/',
-    image: porfolioImage6,
+    image: portfolioImage6,
   },
   // {
   //   title: 'Project title 7',
