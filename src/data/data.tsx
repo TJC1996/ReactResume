@@ -19,6 +19,7 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.png';
 import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage5 from '../images/portfolio/portfolio-5.png';
 import portfolioImage6 from '../images/portfolio/portfolio-6png.png';
+import portfolioImage7 from '../images/portfolio/tenzies.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/sandy.png';
 import {
@@ -221,12 +222,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://notes-app-port.vercel.app/',
     image: portfolioImage6,
   },
-  // {
-  //   title: 'Project title 7',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage7,
-  // },
+  {
+    title: 'Tenzies',
+    description: 'Tenzies Dice Game',
+    url: 'https://tenzies-roll.vercel.app/',
+    image: portfolioImage7,
+  },
   // {
   //   title: 'Project title 8',
   //   description: 'Give a short description of your project here.',
