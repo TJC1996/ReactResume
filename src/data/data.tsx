@@ -125,7 +125,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Spanish',
-        level: 2,
+        level: 6,
       },
     ],
   },
@@ -273,19 +273,6 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
-  {
-    date: 'April 2023 - Present',
-    location: 'Crochet Nation',
-    title: 'Software Engineer',
-    content: (
-      <ul>
-      <li>- Developed a responsive ecommerce store for Crochet Nation using Commerce.js, Stripe, and React.</li>
-      <li>- Soley designed, developed, and deployed the whole application on my own.</li>
-      <li>- Implemeneted and configured best practices for accepting online payments.</li>
-      <li>- Created a fully live checkout system which, accepts real time payments, calucate taxes, and fulfill orders.</li>
-      </ul>
-    ),
-  },
   {
     date: 'January 2021 - Present',
     location: 'Labcorp Covance',
