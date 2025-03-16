@@ -104,7 +104,7 @@ export const aboutData: About = {
   description: `A highly motivated and dedicated Software Engineer seeking a full-time position where I can contribute to the success of a dynamic company and further develop my skills in the Software Technology field.`,
   aboutItems: [
     {label: 'Location', text: 'San Diego, CA', Icon: MapIcon},
-    {label: 'Age', text: '27', Icon: CalendarIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Italian / Irish / Polish', Icon: FlagIcon},
     {label: 'Interests', text: 'Skateboarding, Snowboarding, Hiking', Icon: SparklesIcon},
     {label: 'Study', text: 'San Diego State University - Management Information Systems', Icon: AcademicCapIcon},
@@ -275,7 +275,7 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'January 2021 - Present',
-    location: 'Labcorp Covance',
+    location: 'Fortrea (Formerly LabCorp Covance)',
     title: 'Software Engineer',
     content: (
       <ul>
@@ -312,9 +312,9 @@ export const testimonial: TestimonialSection = {
       image: 'https://i.ibb.co/Bgs7Hf6/mom2.png',
     },
     {
-      name: 'Patricia Rivero',
+      name: 'Alicia Dibiase',
       text: 'I worked with Anthony to revamp a e-commerce site. Anthony is really open to critiques and makes the effort to implement design changes to his work. It really helps with creating and implementing up to date designs that are aligned with my user research.',
-      image: 'https://i.ibb.co/qmyvSmn/Patty.png',
+      image: 'https://i.ibb.co/NnWH7h50/alicia.jpg',
     },
     {
       name: 'Stella Clark',
