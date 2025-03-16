@@ -262,7 +262,7 @@ export const education: TimelineItem[] = [
     date: 'December 2019',
     location: 'San Diego, CA',
     title: 'San Diego State University - Fowler School of Business - Management Information Systems',
-    content: <p>During my college years, I demonstrated adaptability and perseverance by moving across the country and successfully building a strong academic record and network from scratch.</p> <p>My academic journey at SDSU has not just equipped me with the knowledge of Information Systems but also honed a myriad of skills that I am eager to apply in the professional realm. Whether it's database management, system design, programming, or data analytics, I am confident in my abilities to contribute, innovate, and excel.</p>,
+    content: <p>During my college years, I demonstrated adaptability and perseverance by moving across the country and successfully building a strong academic record and network from scratch. My academic journey at SDSU has not just equipped me with the knowledge of Information Systems but also honed a myriad of skills that I am eager to apply in the professional realm. Whether it's database management, system design, programming, or data analytics, I am confident in my abilities to contribute, innovate, and excel.</p>,
   },
   {
     date: 'Febuary 2025',
