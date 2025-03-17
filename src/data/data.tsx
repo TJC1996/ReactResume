@@ -262,12 +262,14 @@ export const education: TimelineItem[] = [
     date: 'December 2019',
     location: 'San Diego, CA',
     title: 'San Diego State University - Fowler School of Business - Management Information Systems',
-    content: <p>During my college years, I demonstrated adaptability and perseverance by moving across the country and successfully building a strong academic record and network from scratch. My academic journey at SDSU has not just equipped me with the knowledge of Information Systems but also honed a myriad of skills that I am eager to apply in the professional realm. Whether it's database management, system design, programming, or data analytics, I am confident in my abilities to contribute, innovate, and excel.</p>,
+    title: 'Fowler School of Business - Management Information Systems',
+    content: <p>My academic journey at SDSU has not just equipped me with the knowledge of Information Systems but also honed a myriad of skills that I am eager to apply in the professional realm. Whether it's database management, system design, programming, or data analytics, I am confident in my abilities to contribute, innovate, and excel.</p>,
   },
   {
     date: 'Febuary 2025',
     location: 'San Diego, CA',
-    title: 'UC San Diego Extension Machine Learning Engineering Bootcamp Certification 2025',
+    title: 'UC San Diego Extension',
+    title: 'Machine Learning Engineering Bootcamp Certification 2025'
     content: <p>400+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 1 in-depth capstone project. Mastered skills in the machine learning stack, including data wrangling at scale, deep learning, and building and deploying large-scale AI systems. Please see my capstone project:<a href='https://github.com/TJC1996/RealMap/tree/main'>RealMaps</a> </p>,
   },
 ];
