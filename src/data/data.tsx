@@ -268,8 +268,7 @@ export const education: TimelineItem[] = [
     date: 'Febuary 2025',
     location: 'San Diego, CA',
     title: 'UC San Diego Extension Machine Learning Engineering Bootcamp Certification 2025',
-    content: <p>400+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 1 in-depth capstone project. Mastered skills in the machine learning stack, including data wrangling at scale, deep learning, and building and deploying large-scale AI systems. Please see capstone below:</p>,
-    url: 'https://github.com/TJC1996/RealMap/tree/main'
+    content: <p>400+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 1 in-depth capstone project. Mastered skills in the machine learning stack, including data wrangling at scale, deep learning, and building and deploying large-scale AI systems. Please see my capstone project:<a href='https://github.com/TJC1996/RealMap/tree/main'>RealMaps</a> </p>,
   },
 ];
 
