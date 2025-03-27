@@ -71,7 +71,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a San Diego based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        I'm a Sea Girt based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100">Fortrea</strong> helping build mobile clincial trials for Labcorp patient studies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -103,7 +103,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `A highly motivated and dedicated Software Engineer seeking a full-time position where I can contribute to the success of a dynamic company and further develop my skills in the Software Technology field.`,
   aboutItems: [
-    {label: 'Location', text: 'San Diego, CA', Icon: MapIcon},
+    {label: 'Location', text: 'Sea Girt, NJ', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Italian / Irish / Polish', Icon: FlagIcon},
     {label: 'Interests', text: 'Skateboarding, Snowboarding, Hiking', Icon: SparklesIcon},
@@ -172,11 +172,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Android',
-        level: 8,
+        level: 9,
       },
       {
         name: 'iOS',
-        level: 8,
+        level: 9,
       },
     ],
   },
@@ -340,8 +340,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'San Diego, CA',
-      href: 'https://www.google.com/maps/place/Ocean+Beach,+San+Diego,+CA/@32.7461888,-117.2856543,13z/data=!3m1!4b1!4m6!3m5!1s0x80deaa37b72c78ff:0xccd2ea1ce1f90202!8m2!3d32.7494988!4d-117.2470353!16zL20vMDNyN2oz?entry=ttu',
+      text: 'Sea Girt, NJ',
+      href: 'https://maps.app.goo.gl/S5eEui7ZLkP6u46P7',
     },
     {
       type: ContactType.Instagram,
@@ -361,8 +361,8 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tjc1996'},
-  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/anthony-clark-6a0543162/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tony__clark/'},
-  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/'},
 ];
