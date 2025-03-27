@@ -26,7 +26,7 @@ const Footer: FC = memo(() => (
           <span className="italic text-white">Clark</span>
         </span> */}
       </a>
-      <span className="text-sm text-neutral-700">© Copyright 2024 Anthony Clark</span>
+      <span className="text-sm text-neutral-700">© Copyright 2025 Anthony Clark</span>
     </div>
   </div>
 ));
