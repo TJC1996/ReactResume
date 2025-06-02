@@ -188,12 +188,6 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Crochet Nation',
-    description: 'A fully live eCommerce store',
-    url: 'https://crochetnation.org/',
-    image: porfolioImage1,
-  },
-  {
     title: 'Yelp Camp',
     description: 'A location-based Campground Review App.',
     url: 'https://yelpcamprender.onrender.com/',
@@ -235,6 +229,12 @@ export const portfolioItems: PortfolioItem[] = [
      url: 'https://realmap-v1.vercel.app/',
      image: portfolioImage8,
    },
+   {
+    title: 'Crochet Nation',
+    description: 'A fully live eCommerce store',
+    url: 'https://crochetnation.org/',
+    image: porfolioImage1,
+  },
   // {
   //   title: 'Project title 9',
   //   description: 'Give a short description of your project here.',
