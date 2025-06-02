@@ -20,6 +20,7 @@ import portfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import portfolioImage5 from '../images/portfolio/portfolio-5.png';
 import portfolioImage6 from '../images/portfolio/portfolio-6png.png';
 import portfolioImage7 from '../images/portfolio/tenzies.png';
+import portfolioImage8 from '../images/portfolio/realmaps.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/sandy.png';
 import {
@@ -71,8 +72,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Sea Girt based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Fortrea</strong> helping build mobile clincial trials for Labcorp patient studies.
+        I'm a Sea Girt based <strong className="text-stone-100">Full Stack Software Engineer</strong>, previously working
+        at <strong className="text-stone-100">Fortrea</strong> helping build mobile clincial trials for Labcorp patient studies. Currently looking for work.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me skateboarding at the <strong className="text-stone-100">skatepark</strong>,
@@ -83,7 +84,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Resume2025website.pdf',
+      href: '/assets/Resume%202025%20-%20May.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -125,7 +126,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Spanish',
-        level: 6,
+        level: 7,
       },
     ],
   },
@@ -138,11 +139,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Material UI',
-        level: 8,
+        level: 9,
       },
       {
         name: 'Bootstrap',
-        level: 8,
+        level: 9,
       },
     ],
   },
@@ -155,11 +156,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Express.js',
-        level: 8,
+        level: 9,
       },
       {
         name: 'MongoDB',
-        level: 8,
+        level: 9,
       },
     ],
   },
@@ -228,12 +229,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://tenzies-roll.vercel.app/',
     image: portfolioImage7,
   },
-  // {
-  //   title: 'Project title 8',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage8,
-  // },
+   {
+     title: 'RealMaps',
+     description: 'Explore Property Sales in Monmouth County! Search real estate transactions, visualize trends, and gain insights from verified county data.',
+     url: 'https://realmap-v1.vercel.app/',
+     image: porfolioImage8,
+   },
   // {
   //   title: 'Project title 9',
   //   description: 'Give a short description of your project here.',
@@ -274,7 +275,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2021 - Present',
+    date: 'January 2021 - May 2025',
     location: 'Fortrea (Formerly LabCorp Covance)',
     title: 'Software Engineer',
     content: (
