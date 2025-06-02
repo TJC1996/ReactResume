@@ -233,7 +233,7 @@ export const portfolioItems: PortfolioItem[] = [
      title: 'RealMaps',
      description: 'Explore Property Sales in Monmouth County! Search real estate transactions, visualize trends, and gain insights from verified county data.',
      url: 'https://realmap-v1.vercel.app/',
-     image: porfolioImage8,
+     image: portfolioImage8,
    },
   // {
   //   title: 'Project title 9',
