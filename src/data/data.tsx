@@ -84,7 +84,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Resume2025-June.pdf',
+      href: '/assets/Resume-2025.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -105,7 +105,7 @@ export const aboutData: About = {
   description: `A highly motivated and dedicated Software Engineer seeking a full-time position where I can contribute to the success of a dynamic company and further develop my skills in the Software Technology field.`,
   aboutItems: [
     {label: 'Location', text: 'Sea Girt, NJ', Icon: MapIcon},
-    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Italian / Irish / Polish', Icon: FlagIcon},
     {label: 'Interests', text: 'Skateboarding, Snowboarding, Hiking', Icon: SparklesIcon},
     {label: 'Study', text: 'San Diego State University - Management Information Systems', Icon: AcademicCapIcon},
@@ -231,7 +231,7 @@ export const portfolioItems: PortfolioItem[] = [
    },
    {
     title: 'Crochet Nation',
-    description: 'A fully live eCommerce store',
+    description: 'A fully live eCommerce store - Shop is under maintence Commerce.js was discontinued',
     url: 'https://crochetnation.org/',
     image: porfolioImage1,
   },
