@@ -72,8 +72,9 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Sea Girt based <strong className="text-stone-100">Full Stack Software Engineer</strong>, previously working
-        at <strong className="text-stone-100">Fortrea</strong> helping build mobile clincial trials for Labcorp patient studies. Currently looking for work.
+        I'm a Sea Girt based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently at 
+        <strong className="text-stone-100"> Sitar Realty</strong> where I built RealMap, a real estate analytics platform. 
+        Previously at <strong className="text-stone-100">Fortrea</strong> building mobile clinical trials for Labcorp patient studies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me skateboarding at the <strong className="text-stone-100">skatepark</strong>,
@@ -84,7 +85,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Resume-2025.pdf',
+      href: '/assets/AC-Resume-2026.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -274,6 +275,17 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+    {
+    date: 'May 2025 - Present',
+    location: 'Sitar Realty',
+    title: 'Sales Associate',
+    content: (
+      <ul>
+        <li>- Built RealMap, a real estate analytics tool (React, XGBoost, MapLibre) visualizing 200,000+ monthly property transactions in Monmouth County</li>
+        <li>- Support commercial property sales, client communications, and market analysis</li>
+      </ul>
+    ),
+  },
   {
     date: 'January 2021 - May 2025',
     location: 'Fortrea (Formerly LabCorp Covance)',
