@@ -85,7 +85,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/AC-Resume-2026.pdf',
+      href: '/assets/Anthony_Clark_2026.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -271,6 +271,12 @@ export const education: TimelineItem[] = [
     location: 'San Diego, CA',
     title: 'UC San Diego Machine Learning Engineering Bootcamp 2025',
     content: <p>400+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 1 in-depth capstone project. Mastered skills in the machine learning stack, including data wrangling at scale, deep learning, and building and deploying large-scale AI systems. Please see my capstone project: <b><u><a href='https://github.com/TJC1996/RealMap/tree/main'>RealMaps</a></u></b> </p>,
+  },
+  {
+    date: 'Spring 2028 Expected',
+    location: 'San Diego, CA',
+    title: 'Georgia Institute of Technology - Online Master of Science in Computer Science - Specialization in Machine Learning',
+    content: <p>Currently pursuing an online Master of Science in Computer Science with a specialization in Machine Learning at the Georgia Institute of Technology. Gaining advanced knowledge and skills in machine learning, artificial intelligence, and data science, with a focus on practical applications and real-world problem-solving.</p>,
   },
 ];
 
