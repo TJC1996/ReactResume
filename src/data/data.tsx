@@ -21,7 +21,7 @@ import portfolioImage5 from '../images/portfolio/portfolio-5.png';
 import portfolioImage6 from '../images/portfolio/portfolio-6png.png';
 import portfolioImage8 from '../images/portfolio/realmaps.png';
 import portfolioImage7 from '../images/portfolio/tenzies.png';
-import porfolioImage9 from '../images/portfolio/worldcup.png';
+import porfolioImage9 from '../images/portfolio/world-cup.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/sandy.png';
 import {
