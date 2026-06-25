@@ -21,6 +21,7 @@ import portfolioImage5 from '../images/portfolio/portfolio-5.png';
 import portfolioImage6 from '../images/portfolio/portfolio-6png.png';
 import portfolioImage8 from '../images/portfolio/realmaps.png';
 import portfolioImage7 from '../images/portfolio/tenzies.png';
+import porfolioImage9 from '../images/portfolio/worldcup.png';
 import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/sandy.png';
 import {
@@ -236,12 +237,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://crochetnation.org/',
     image: porfolioImage1,
   },
-  // {
-  //   title: 'Project title 9',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage9,
-  // },
+  {
+    title: 'World Cup Prediction Agent',
+    description: 'A machine learning model that predicts the outcomes of World Cup matches.',
+    url: 'https://worldcup-prediction-opal.vercel.app/',
+    image: porfolioImage9,
+  },
   // {
   //   title: 'Project title 10',
   //   description: 'Give a short description of your project here.',
